@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="priority_controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="priority_controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="978.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,110.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="137"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/priority_controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_stop" type="logic">
+      <obj_property name="ElementShortName">i_stop</obj_property>
+      <obj_property name="ObjectShortName">i_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/o_up" type="logic">
+      <obj_property name="ElementShortName">o_up</obj_property>
+      <obj_property name="ObjectShortName">o_up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/o_down" type="logic">
+      <obj_property name="ElementShortName">o_down</obj_property>
+      <obj_property name="ObjectShortName">o_down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/floor_reached" type="logic">
+      <obj_property name="ElementShortName">floor_reached</obj_property>
+      <obj_property name="ObjectShortName">floor_reached</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/current_floor_reg" type="array">
+      <obj_property name="ElementShortName">current_floor_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_floor_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_req_ext" type="array">
+      <obj_property name="ElementShortName">i_req_ext[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_req_ext[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_req_inter" type="array">
+      <obj_property name="ElementShortName">i_req_inter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_req_inter[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/request_reg" type="array">
+      <obj_property name="ElementShortName">request_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">request_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/floor_next" type="array">
+      <obj_property name="ElementShortName">floor_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">floor_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_req_ext_prev" type="array">
+      <obj_property name="ElementShortName">i_req_ext_prev[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_req_ext_prev[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/i_req_inter_prev" type="array">
+      <obj_property name="ElementShortName">i_req_inter_prev[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_req_inter_prev[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/state_reg" type="array">
+      <obj_property name="ElementShortName">state_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/state_next" type="array">
+      <obj_property name="ElementShortName">state_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/priority_cnt" type="array">
+      <obj_property name="ElementShortName">priority_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">priority_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/rotate_shift_flag" type="array">
+      <obj_property name="ElementShortName">rotate_shift_flag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rotate_shift_flag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/priority_bit" type="array">
+      <obj_property name="ElementShortName">priority_bit[4:0]</obj_property>
+      <obj_property name="ObjectShortName">priority_bit[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/current_floor_bit" type="array">
+      <obj_property name="ElementShortName">current_floor_bit[4:0]</obj_property>
+      <obj_property name="ObjectShortName">current_floor_bit[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/current_floor_real" type="other">
+      <obj_property name="ElementShortName">current_floor_real</obj_property>
+      <obj_property name="ObjectShortName">current_floor_real</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/UP_PRIORITY" type="array">
+      <obj_property name="ElementShortName">UP_PRIORITY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UP_PRIORITY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/DOWN_PRIORITY" type="array">
+      <obj_property name="ElementShortName">DOWN_PRIORITY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DOWN_PRIORITY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/OUTPUT" type="array">
+      <obj_property name="ElementShortName">OUTPUT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/priority_controller/ACKNOWLEDGED" type="array">
+      <obj_property name="ElementShortName">ACKNOWLEDGED[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ACKNOWLEDGED[2:0]</obj_property>
+   </wvobject>
+</wave_config>

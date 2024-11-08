@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Nov  8 20:35:58 2024
+# Process ID: 21940
+# Current directory: C:/Users/tamka/OneDrive/Documents/Vivado_projects/evelator_controller/evelator_controller.runs/impl_1
+# Command line: vivado.exe -log elevator_controller.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source elevator_controller.tcl -notrace
+# Log file: C:/Users/tamka/OneDrive/Documents/Vivado_projects/evelator_controller/evelator_controller.runs/impl_1/elevator_controller.vdi
+# Journal file: C:/Users/tamka/OneDrive/Documents/Vivado_projects/evelator_controller/evelator_controller.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-8E795V2D
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency     :2688 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16906 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19456 MB
+# Available Virtual :5756 MB
+#-----------------------------------------------------------
+source elevator_controller.tcl -notrace
